@@ -1,0 +1,309 @@
+Request method:	POST
++Request URI:	http://localhost:9999/credit
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+WHeaders:		Accept=application/json, application/javascript, text/javascript, text/json
+#				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+%    "number": "4444 4444 4444 4441",
+    "month": "12",
+    "year": "24",
+$    "holder": "DR. ISREAL LEBSACK",
+    "cvc": "201"
+}
+Request method:	POST
++Request URI:	http://localhost:9999/credit
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+WHeaders:		Accept=application/json, application/javascript, text/javascript, text/json
+#				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+%    "number": "4444 4444 4444 4442",
+    "month": "12",
+    "year": "24",
+#    "holder": "MISS HERMINE KIHN",
+    "cvc": "462"
+}
+Request method:	POST
++Request URI:	http://localhost:9999/credit
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+WHeaders:		Accept=application/json, application/javascript, text/javascript, text/json
+#				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	POST
++Request URI:	http://localhost:9999/credit
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+WHeaders:		Accept=application/json, application/javascript, text/javascript, text/json
+#				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+%    "number": "4444 4444 4444 4441",
+    "month": "12",
+    "year": "24",
+#    "holder": "DR. LAURENE LARSON"
+}
+Request method:	POST
++Request URI:	http://localhost:9999/credit
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+WHeaders:		Accept=application/json, application/javascript, text/javascript, text/json
+#				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+%    "number": "4444 4444 4444 4441",
+    "month": "12",
+    "year": "24",
+    "cvc": "357"
+}
+Request method:	POST
++Request URI:	http://localhost:9999/credit
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+WHeaders:		Accept=application/json, application/javascript, text/javascript, text/json
+#				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+%    "number": "4444 4444 4444 4441",
+    "year": "24",
+&    "holder": "MARISELA GLEASON PHD",
+    "cvc": "657"
+}
+Request method:	POST
++Request URI:	http://localhost:9999/credit
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+WHeaders:		Accept=application/json, application/javascript, text/javascript, text/json
+#				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "month": "12",
+    "year": "24",
+!    "holder": "DARRICK WEST II",
+    "cvc": "221"
+}
+	Request method:	POST
+	+Request URI:	http://localhost:9999/credit
+	Proxy:			<none>
+	Request params:	<none>
+	Query params:	<none>
+	Form params:	<none>
+	Path params:	<none>
+	WHeaders:		Accept=application/json, application/javascript, text/javascript, text/json
+	#				Content-Type=application/json
+	Cookies:		<none>
+	Multiparts:		<none>
+	Body:
+	{
+	%    "number": "4444 4444 4444 4441",
+	    "month": "12",
+	     "holder": "VALENTINE FEIL",
+	    "cvc": "383"
+	}
+
+Request method:	POST
+
+,Request URI:	http://localhost:9999/payment
+
+Proxy:			<none>
+
+Request params:	<none>
+
+Query params:	<none>
+
+Form params:	<none>
+
+Path params:	<none>
+
+WHeaders:		Accept=application/json, application/javascript, text/javascript, text/json
+
+#				Content-Type=application/json
+
+Cookies:		<none>
+
+Multiparts:		<none>
+
+Body:
+
+{
+
+%    "number": "4444 4444 4444 4441",
+
+    "month": "12",
+
+    "year": "24",
+
+     "holder": "JULIO ADAMS MD",
+
+    "cvc": "972"
+
+}
+Request method:	POST
+,Request URI:	http://localhost:9999/payment
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+WHeaders:		Accept=application/json, application/javascript, text/javascript, text/json
+#				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+%    "number": "4444 4444 4444 4442",
+    "month": "12",
+    "year": "24",
+     "holder": "ELVIS THOMPSON",
+    "cvc": "319"
+}
+Request method:	POST
+,Request URI:	http://localhost:9999/payment
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+WHeaders:		Accept=application/json, application/javascript, text/javascript, text/json
+#				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	POST
+,Request URI:	http://localhost:9999/payment
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+WHeaders:		Accept=application/json, application/javascript, text/javascript, text/json
+#				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+%    "number": "4444 4444 4444 4441",
+    "month": "12",
+    "year": "24",
+    "holder": "OWEN LUETTGEN"
+}
+Request method:	POST
+,Request URI:	http://localhost:9999/payment
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+WHeaders:		Accept=application/json, application/javascript, text/javascript, text/json
+#				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+%    "number": "4444 4444 4444 4441",
+    "month": "12",
+    "year": "24",
+    "cvc": "606"
+}
+Request method:	POST
+,Request URI:	http://localhost:9999/payment
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+WHeaders:		Accept=application/json, application/javascript, text/javascript, text/json
+#				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+%    "number": "4444 4444 4444 4441",
+    "year": "24",
+"    "holder": "FRANKLYN SCHUPPE",
+    "cvc": "563"
+}
+Request method:	POST
+,Request URI:	http://localhost:9999/payment
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+WHeaders:		Accept=application/json, application/javascript, text/javascript, text/json
+#				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "month": "12",
+    "year": "24",
+!    "holder": "NESTOR PREDOVIC",
+    "cvc": "854"
+}
+Request method:	POST
+,Request URI:	http://localhost:9999/payment
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+WHeaders:		Accept=application/json, application/javascript, text/javascript, text/json
+#				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+%    "number": "4444 4444 4444 4441",
+    "month": "12",
+    "holder": "EMMETT KIHN",
+    "cvc": "633"
+}
+  |Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 52819
+  %Only local connections are allowed.
+  tPlease see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+  (ChromeDriver was started successfully.
+  Zнояб. 25, 2022 2:24:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+  &INFO: Detected upstream dialect: W3C
+  ^нояб. 25, 2022 2:24:12 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  iWARNING: Unable to find an exact match for CDP version 107, so returning the closest version found: 103
+  ^нояб. 25, 2022 2:24:12 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  7INFO: Found CDP implementation for version 107 of 103
