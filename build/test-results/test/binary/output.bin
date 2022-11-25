@@ -14,8 +14,8 @@
 %    "number": "4444 4444 4444 4441",
     "month": "12",
     "year": "24",
-$    "holder": "DR. ISREAL LEBSACK",
-    "cvc": "201"
+$    "holder": "DORETHEA CUMMERATA",
+    "cvc": "195"
 }
 Request method:	POST
 +Request URI:	http://localhost:9999/credit
@@ -33,8 +33,8 @@
 %    "number": "4444 4444 4444 4442",
     "month": "12",
     "year": "24",
-#    "holder": "MISS HERMINE KIHN",
-    "cvc": "462"
+#    "holder": "JACQUELYNN BAILEY",
+    "cvc": "133"
 }
 Request method:	POST
 +Request URI:	http://localhost:9999/credit
@@ -64,7 +64,7 @@
 %    "number": "4444 4444 4444 4441",
     "month": "12",
     "year": "24",
-#    "holder": "DR. LAURENE LARSON"
+     "holder": "WILLIA GRAHAM I"
 }
 Request method:	POST
 +Request URI:	http://localhost:9999/credit
@@ -82,7 +82,7 @@
 %    "number": "4444 4444 4444 4441",
     "month": "12",
     "year": "24",
-    "cvc": "357"
+    "cvc": "618"
 }
 Request method:	POST
 +Request URI:	http://localhost:9999/credit
@@ -99,8 +99,8 @@
 {
 %    "number": "4444 4444 4444 4441",
     "year": "24",
-&    "holder": "MARISELA GLEASON PHD",
-    "cvc": "657"
+     "holder": "MICHA EMMERICH",
+    "cvc": "523"
 }
 Request method:	POST
 +Request URI:	http://localhost:9999/credit
@@ -117,8 +117,8 @@
 {
     "month": "12",
     "year": "24",
-!    "holder": "DARRICK WEST II",
-    "cvc": "221"
+    "holder": "ERLINE OLSON",
+    "cvc": "339"
 }
 	Request method:	POST
 	+Request URI:	http://localhost:9999/credit
@@ -135,8 +135,8 @@
 	{
 	%    "number": "4444 4444 4444 4441",
 	    "month": "12",
-	     "holder": "VALENTINE FEIL",
-	    "cvc": "383"
+	     "holder": "KITTIE DIBBERT",
+	    "cvc": "599"
 	}
 
 Request method:	POST
@@ -171,9 +171,9 @@ WHeaders:		Accept=application/json, application/javascript, text/javascript, tex
 
     "year": "24",
 
-     "holder": "JULIO ADAMS MD",
+!    "holder": "CLORINDA BLANDA",
 
-    "cvc": "972"
+    "cvc": "787"
 
 }
 Request method:	POST
@@ -192,8 +192,8 @@ WHeaders:		Accept=application/json, application/javascript, text/javascript, tex
 %    "number": "4444 4444 4444 4442",
     "month": "12",
     "year": "24",
-     "holder": "ELVIS THOMPSON",
-    "cvc": "319"
+!    "holder": "VIRGIL DOYLE IV",
+    "cvc": "309"
 }
 Request method:	POST
 ,Request URI:	http://localhost:9999/payment
@@ -223,7 +223,7 @@ WHeaders:		Accept=application/json, application/javascript, text/javascript, tex
 %    "number": "4444 4444 4444 4441",
     "month": "12",
     "year": "24",
-    "holder": "OWEN LUETTGEN"
+    "holder": "HEDWIG MANTE"
 }
 Request method:	POST
 ,Request URI:	http://localhost:9999/payment
@@ -241,7 +241,7 @@ WHeaders:		Accept=application/json, application/javascript, text/javascript, tex
 %    "number": "4444 4444 4444 4441",
     "month": "12",
     "year": "24",
-    "cvc": "606"
+    "cvc": "741"
 }
 Request method:	POST
 ,Request URI:	http://localhost:9999/payment
@@ -258,8 +258,8 @@ WHeaders:		Accept=application/json, application/javascript, text/javascript, tex
 {
 %    "number": "4444 4444 4444 4441",
     "year": "24",
-"    "holder": "FRANKLYN SCHUPPE",
-    "cvc": "563"
+    "holder": "LLOYD WISOZK",
+    "cvc": "898"
 }
 Request method:	POST
 ,Request URI:	http://localhost:9999/payment
@@ -276,8 +276,8 @@ WHeaders:		Accept=application/json, application/javascript, text/javascript, tex
 {
     "month": "12",
     "year": "24",
-!    "holder": "NESTOR PREDOVIC",
-    "cvc": "854"
+    "holder": "CARY BREKKE",
+    "cvc": "347"
 }
 Request method:	POST
 ,Request URI:	http://localhost:9999/payment
@@ -294,16 +294,16 @@ WHeaders:		Accept=application/json, application/javascript, text/javascript, tex
 {
 %    "number": "4444 4444 4444 4441",
     "month": "12",
-    "holder": "EMMETT KIHN",
-    "cvc": "633"
+     "holder": "MILFORD POUROS",
+    "cvc": "605"
 }
-  |Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 52819
+  |Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 50932
   %Only local connections are allowed.
   tPlease see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
   (ChromeDriver was started successfully.
-  Zнояб. 25, 2022 2:24:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+  Zнояб. 25, 2022 2:48:28 PM org.openqa.selenium.remote.ProtocolHandshake createSession
   &INFO: Detected upstream dialect: W3C
-  ^нояб. 25, 2022 2:24:12 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  ^нояб. 25, 2022 2:48:29 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
   iWARNING: Unable to find an exact match for CDP version 107, so returning the closest version found: 103
-  ^нояб. 25, 2022 2:24:12 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  ^нояб. 25, 2022 2:48:29 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
   7INFO: Found CDP implementation for version 107 of 103

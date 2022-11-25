@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ru.netology.dailyTrip.tests.frontend.CreditUiTests" tests="3" skipped="0" failures="3" errors="0" timestamp="2022-11-25T11:24:13" hostname="LAPTOP-TP511OQ9" time="30.357">
+<testsuite name="ru.netology.dailyTrip.tests.frontend.CreditUiTests" tests="3" skipped="0" failures="3" errors="0" timestamp="2022-11-25T11:48:30" hostname="LAPTOP-TP511OQ9" time="23.394">
   <properties/>
-  <testcase name="shouldHappyPath" classname="ru.netology.dailyTrip.tests.frontend.CreditUiTests" time="9.601">
-    <failure message="java.lang.AssertionError: expected:&lt;919666b2-9a11-4eca-a966-d90e66d1743b&gt; but was:&lt;null&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;919666b2-9a11-4eca-a966-d90e66d1743b&gt; but was:&lt;null&gt;
+  <testcase name="shouldHappyPath" classname="ru.netology.dailyTrip.tests.frontend.CreditUiTests" time="3.929">
+    <failure message="java.lang.AssertionError: expected:&lt;46d0b154-6036-410b-b418-66d56113a845&gt; but was:&lt;null&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;46d0b154-6036-410b-b418-66d56113a845&gt; but was:&lt;null&gt;
 	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:115)
 	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:125)
 	at ru.netology.dailyTrip.tests.frontend.CreditUiTests.shouldHappyPath(CreditUiTests.java:71)
@@ -54,7 +54,7 @@
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 </failure>
   </testcase>
-  <testcase name="shouldImmutableInputValuesAfterClickButton" classname="ru.netology.dailyTrip.tests.frontend.CreditUiTests" time="2.327">
+  <testcase name="shouldImmutableInputValuesAfterClickButton" classname="ru.netology.dailyTrip.tests.frontend.CreditUiTests" time="1.781">
     <failure message="java.lang.AssertionError: expected:&lt;4444 4444 4444 4441&gt; but was:&lt;&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;4444 4444 4444 4441&gt; but was:&lt;&gt;
 	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:115)
 	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:125)
@@ -108,12 +108,12 @@
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 </failure>
   </testcase>
-  <testcase name="shouldSadPath" classname="ru.netology.dailyTrip.tests.frontend.CreditUiTests" time="17.786">
-    <failure message="Element should visible {By.xpath: //div[contains(@class, 'notification_status_error')]}&#13;&#10;Element: '&lt;div class=&quot;notification notification_status_error notification_has-closer notification_stick-to_right notification_theme_alfa-on-white&quot; displayed:false&gt;&lt;/div&gt;'&#13;&#10;Actual value: hidden&#13;&#10;Screenshot: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669375483174.0.png&#13;&#10;Page source: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669375483174.0.html&#13;&#10;Timeout: 15 s." type="com.codeborne.selenide.ex.ElementShould">Element should visible {By.xpath: //div[contains(@class, 'notification_status_error')]}
+  <testcase name="shouldSadPath" classname="ru.netology.dailyTrip.tests.frontend.CreditUiTests" time="17.035">
+    <failure message="Element should visible {By.xpath: //div[contains(@class, 'notification_status_error')]}&#13;&#10;Element: '&lt;div class=&quot;notification notification_status_error notification_has-closer notification_stick-to_right notification_theme_alfa-on-white&quot; displayed:false&gt;&lt;/div&gt;'&#13;&#10;Actual value: hidden&#13;&#10;Screenshot: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669376933249.0.png&#13;&#10;Page source: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669376933249.0.html&#13;&#10;Timeout: 15 s." type="com.codeborne.selenide.ex.ElementShould">Element should visible {By.xpath: //div[contains(@class, 'notification_status_error')]}
 Element: '&lt;div class=&quot;notification notification_status_error notification_has-closer notification_stick-to_right notification_theme_alfa-on-white&quot; displayed:false&gt;&lt;/div&gt;'
 Actual value: hidden
-Screenshot: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669375483174.0.png
-Page source: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669375483174.0.html
+Screenshot: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669376933249.0.png
+Page source: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669376933249.0.html
 Timeout: 15 s.
 	at app//com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:135)
 	at app//com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:98)
@@ -174,15 +174,15 @@ Timeout: 15 s.
 </failure>
   </testcase>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 52819
+  <system-err><![CDATA[Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 50932
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-нояб. 25, 2022 2:24:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+нояб. 25, 2022 2:48:28 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-нояб. 25, 2022 2:24:12 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+нояб. 25, 2022 2:48:29 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 107, so returning the closest version found: 103
-нояб. 25, 2022 2:24:12 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+нояб. 25, 2022 2:48:29 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found CDP implementation for version 107 of 103
 ]]></system-err>
 </testsuite>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ru.netology.dailyTrip.tests.frontend.PaymentUiTests" tests="41" skipped="0" failures="23" errors="0" timestamp="2022-11-25T11:24:44" hostname="LAPTOP-TP511OQ9" time="251.848">
+<testsuite name="ru.netology.dailyTrip.tests.frontend.PaymentUiTests" tests="41" skipped="0" failures="23" errors="0" timestamp="2022-11-25T11:48:53" hostname="LAPTOP-TP511OQ9" time="217.704">
   <properties/>
-  <testcase name="shouldAddingNullInMonthWith1Digit" classname="ru.netology.dailyTrip.tests.frontend.PaymentUiTests" time="2.002">
-    <failure message="java.lang.AssertionError: expected:&lt;00&gt; but was:&lt;0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;00&gt; but was:&lt;0&gt;
+  <testcase name="shouldAddingNullInMonthWith1Digit" classname="ru.netology.dailyTrip.tests.frontend.PaymentUiTests" time="1.362">
+    <failure message="java.lang.AssertionError: expected:&lt;07&gt; but was:&lt;7&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;07&gt; but was:&lt;7&gt;
 	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:115)
 	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:125)
 	at ru.netology.dailyTrip.pages.TripFormPage.matchesByInsertValue(TripFormPage.java:60)
@@ -55,8 +55,8 @@
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 </failure>
   </testcase>
-  <testcase name="shouldAutoDeletingStartEndHyphenInHolder" classname="ru.netology.dailyTrip.tests.frontend.PaymentUiTests" time="2.046">
-    <failure message="java.lang.AssertionError: expected:&lt;CHADWICK BOGISICH&gt; but was:&lt; CHADWICK BOGISICH &gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;CHADWICK BOGISICH&gt; but was:&lt; CHADWICK BOGISICH &gt;
+  <testcase name="shouldAutoDeletingStartEndHyphenInHolder" classname="ru.netology.dailyTrip.tests.frontend.PaymentUiTests" time="1.428">
+    <failure message="java.lang.AssertionError: expected:&lt;JOHNATHON TREMBLAY II&gt; but was:&lt; JOHNATHON TREMBLAY II &gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;JOHNATHON TREMBLAY II&gt; but was:&lt; JOHNATHON TREMBLAY II &gt;
 	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:115)
 	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:125)
 	at ru.netology.dailyTrip.pages.TripFormPage.matchesByInsertValue(TripFormPage.java:62)
@@ -109,8 +109,8 @@
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 </failure>
   </testcase>
-  <testcase name="shouldAutoDeletingStartEndSpacebarInHolder" classname="ru.netology.dailyTrip.tests.frontend.PaymentUiTests" time="2.069">
-    <failure message="java.lang.AssertionError: expected:&lt;MISS AMIRA GUTKOWSKI&gt; but was:&lt;-MISS AMIRA GUTKOWSKI-&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;MISS AMIRA GUTKOWSKI&gt; but was:&lt;-MISS AMIRA GUTKOWSKI-&gt;
+  <testcase name="shouldAutoDeletingStartEndSpacebarInHolder" classname="ru.netology.dailyTrip.tests.frontend.PaymentUiTests" time="1.454">
+    <failure message="java.lang.AssertionError: expected:&lt;MR. AMADO SIPES&gt; but was:&lt;-MR. AMADO SIPES-&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;MR. AMADO SIPES&gt; but was:&lt;-MR. AMADO SIPES-&gt;
 	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:115)
 	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:125)
 	at ru.netology.dailyTrip.pages.TripFormPage.matchesByInsertValue(TripFormPage.java:62)
@@ -163,8 +163,8 @@
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 </failure>
   </testcase>
-  <testcase name="shouldAutoUpperCaseInHolder" classname="ru.netology.dailyTrip.tests.frontend.PaymentUiTests" time="1.881">
-    <failure message="java.lang.AssertionError: expected:&lt;MS. LARISSA STANTON&gt; but was:&lt;ms. larissa stanton&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;MS. LARISSA STANTON&gt; but was:&lt;ms. larissa stanton&gt;
+  <testcase name="shouldAutoUpperCaseInHolder" classname="ru.netology.dailyTrip.tests.frontend.PaymentUiTests" time="1.436">
+    <failure message="java.lang.AssertionError: expected:&lt;BEVERLEY KILBACK&gt; but was:&lt;beverley kilback&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;BEVERLEY KILBACK&gt; but was:&lt;beverley kilback&gt;
 	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:115)
 	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:125)
 	at ru.netology.dailyTrip.pages.TripFormPage.matchesByInsertValue(TripFormPage.java:62)
@@ -217,11 +217,11 @@
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 </failure>
   </testcase>
-  <testcase name="shouldDeletingRedundantDigitsInYear" classname="ru.netology.dailyTrip.tests.frontend.PaymentUiTests" time="1.799"/>
-  <testcase name="shouldDeletingThirdDigitInMonth" classname="ru.netology.dailyTrip.tests.frontend.PaymentUiTests" time="3.486"/>
-  <testcase name="shouldDeletingThirdDigitInYear" classname="ru.netology.dailyTrip.tests.frontend.PaymentUiTests" time="3.443"/>
-  <testcase name="shouldHappyPath" classname="ru.netology.dailyTrip.tests.frontend.PaymentUiTests" time="10.549"/>
-  <testcase name="shouldImmutableInputValuesAfterClickButton" classname="ru.netology.dailyTrip.tests.frontend.PaymentUiTests" time="2.22">
+  <testcase name="shouldDeletingRedundantDigitsInYear" classname="ru.netology.dailyTrip.tests.frontend.PaymentUiTests" time="1.641"/>
+  <testcase name="shouldDeletingThirdDigitInMonth" classname="ru.netology.dailyTrip.tests.frontend.PaymentUiTests" time="4.074"/>
+  <testcase name="shouldDeletingThirdDigitInYear" classname="ru.netology.dailyTrip.tests.frontend.PaymentUiTests" time="7.497"/>
+  <testcase name="shouldHappyPath" classname="ru.netology.dailyTrip.tests.frontend.PaymentUiTests" time="7.015"/>
+  <testcase name="shouldImmutableInputValuesAfterClickButton" classname="ru.netology.dailyTrip.tests.frontend.PaymentUiTests" time="1.552">
     <failure message="java.lang.AssertionError: expected:&lt;4444 4444 4444 4441&gt; but was:&lt;&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;4444 4444 4444 4441&gt; but was:&lt;&gt;
 	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:115)
 	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:125)
@@ -275,12 +275,12 @@
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 </failure>
   </testcase>
-  <testcase name="shouldSadPath" classname="ru.netology.dailyTrip.tests.frontend.PaymentUiTests" time="17.653">
-    <failure message="Element should visible {By.xpath: //div[contains(@class, 'notification_status_error')]}&#13;&#10;Element: '&lt;div class=&quot;notification notification_status_error notification_has-closer notification_stick-to_right notification_theme_alfa-on-white&quot; displayed:false&gt;&lt;/div&gt;'&#13;&#10;Actual value: hidden&#13;&#10;Screenshot: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669375533486.1.png&#13;&#10;Page source: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669375533486.1.html&#13;&#10;Timeout: 15 s." type="com.codeborne.selenide.ex.ElementShould">Element should visible {By.xpath: //div[contains(@class, 'notification_status_error')]}
+  <testcase name="shouldSadPath" classname="ru.netology.dailyTrip.tests.frontend.PaymentUiTests" time="16.847">
+    <failure message="Element should visible {By.xpath: //div[contains(@class, 'notification_status_error')]}&#13;&#10;Element: '&lt;div class=&quot;notification notification_status_error notification_has-closer notification_stick-to_right notification_theme_alfa-on-white&quot; displayed:false&gt;&lt;/div&gt;'&#13;&#10;Actual value: hidden&#13;&#10;Screenshot: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669376979767.1.png&#13;&#10;Page source: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669376979767.1.html&#13;&#10;Timeout: 15 s." type="com.codeborne.selenide.ex.ElementShould">Element should visible {By.xpath: //div[contains(@class, 'notification_status_error')]}
 Element: '&lt;div class=&quot;notification notification_status_error notification_has-closer notification_stick-to_right notification_theme_alfa-on-white&quot; displayed:false&gt;&lt;/div&gt;'
 Actual value: hidden
-Screenshot: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669375533486.1.png
-Page source: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669375533486.1.html
+Screenshot: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669376979767.1.png
+Page source: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669376979767.1.html
 Timeout: 15 s.
 	at app//com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:135)
 	at app//com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:98)
@@ -340,20 +340,20 @@ Timeout: 15 s.
 	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 </failure>
   </testcase>
-  <testcase name="shouldSuccessfulWith01InMonth" classname="ru.netology.dailyTrip.tests.frontend.PaymentUiTests" time="3.98"/>
-  <testcase name="shouldSuccessfulWith12InMonth" classname="ru.netology.dailyTrip.tests.frontend.PaymentUiTests" time="8.19"/>
-  <testcase name="shouldSuccessfulWith4DigitsInCVC" classname="ru.netology.dailyTrip.tests.frontend.PaymentUiTests" time="11.905"/>
-  <testcase name="shouldSuccessfulWithCurrentMonth" classname="ru.netology.dailyTrip.tests.frontend.PaymentUiTests" time="7.379"/>
-  <testcase name="shouldSuccessfulWithDateThroughFiveYears" classname="ru.netology.dailyTrip.tests.frontend.PaymentUiTests" time="5.784"/>
-  <testcase name="shouldSuccessfulWithHyphenInHolder" classname="ru.netology.dailyTrip.tests.frontend.PaymentUiTests" time="7.682"/>
-  <testcase name="shouldSuccessfulWithStartEndSpacebarInNumber" classname="ru.netology.dailyTrip.tests.frontend.PaymentUiTests" time="11.535"/>
-  <testcase name="shouldSuccessfulWithoutSpacebarInNumber" classname="ru.netology.dailyTrip.tests.frontend.PaymentUiTests" time="11.458"/>
-  <testcase name="shouldUnsuccessfulWith12DigitsInNumber" classname="ru.netology.dailyTrip.tests.frontend.PaymentUiTests" time="17.432">
-    <failure message="Element should visible {By.xpath: //div[contains(@class, 'notification_status_error')]}&#13;&#10;Element: '&lt;div class=&quot;notification notification_status_error notification_has-closer notification_stick-to_right notification_theme_alfa-on-white&quot; displayed:false&gt;&lt;/div&gt;'&#13;&#10;Actual value: hidden&#13;&#10;Screenshot: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669375621641.2.png&#13;&#10;Page source: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669375621641.2.html&#13;&#10;Timeout: 15 s." type="com.codeborne.selenide.ex.ElementShould">Element should visible {By.xpath: //div[contains(@class, 'notification_status_error')]}
+  <testcase name="shouldSuccessfulWith01InMonth" classname="ru.netology.dailyTrip.tests.frontend.PaymentUiTests" time="7.475"/>
+  <testcase name="shouldSuccessfulWith12InMonth" classname="ru.netology.dailyTrip.tests.frontend.PaymentUiTests" time="10.567"/>
+  <testcase name="shouldSuccessfulWith4DigitsInCVC" classname="ru.netology.dailyTrip.tests.frontend.PaymentUiTests" time="8.45"/>
+  <testcase name="shouldSuccessfulWithCurrentMonth" classname="ru.netology.dailyTrip.tests.frontend.PaymentUiTests" time="7.411"/>
+  <testcase name="shouldSuccessfulWithDateThroughFiveYears" classname="ru.netology.dailyTrip.tests.frontend.PaymentUiTests" time="6.08"/>
+  <testcase name="shouldSuccessfulWithHyphenInHolder" classname="ru.netology.dailyTrip.tests.frontend.PaymentUiTests" time="9.853"/>
+  <testcase name="shouldSuccessfulWithStartEndSpacebarInNumber" classname="ru.netology.dailyTrip.tests.frontend.PaymentUiTests" time="3.482"/>
+  <testcase name="shouldSuccessfulWithoutSpacebarInNumber" classname="ru.netology.dailyTrip.tests.frontend.PaymentUiTests" time="3.44"/>
+  <testcase name="shouldUnsuccessfulWith12DigitsInNumber" classname="ru.netology.dailyTrip.tests.frontend.PaymentUiTests" time="16.897">
+    <failure message="Element should visible {By.xpath: //div[contains(@class, 'notification_status_error')]}&#13;&#10;Element: '&lt;div class=&quot;notification notification_status_error notification_has-closer notification_stick-to_right notification_theme_alfa-on-white&quot; displayed:false&gt;&lt;/div&gt;'&#13;&#10;Actual value: hidden&#13;&#10;Screenshot: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669377055120.2.png&#13;&#10;Page source: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669377055120.2.html&#13;&#10;Timeout: 15 s." type="com.codeborne.selenide.ex.ElementShould">Element should visible {By.xpath: //div[contains(@class, 'notification_status_error')]}
 Element: '&lt;div class=&quot;notification notification_status_error notification_has-closer notification_stick-to_right notification_theme_alfa-on-white&quot; displayed:false&gt;&lt;/div&gt;'
 Actual value: hidden
-Screenshot: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669375621641.2.png
-Page source: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669375621641.2.html
+Screenshot: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669377055120.2.png
+Page source: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669377055120.2.html
 Timeout: 15 s.
 	at app//com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:135)
 	at app//com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:98)
@@ -413,12 +413,12 @@ Timeout: 15 s.
 	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 </failure>
   </testcase>
-  <testcase name="shouldUnsuccessfulWith13DigitsInNumber" classname="ru.netology.dailyTrip.tests.frontend.PaymentUiTests" time="17.779">
-    <failure message="Element should visible {By.xpath: //div[contains(@class, 'notification_status_error')]}&#13;&#10;Element: '&lt;div class=&quot;notification notification_status_error notification_has-closer notification_stick-to_right notification_theme_alfa-on-white&quot; displayed:false&gt;&lt;/div&gt;'&#13;&#10;Actual value: hidden&#13;&#10;Screenshot: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669375639723.3.png&#13;&#10;Page source: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669375639723.3.html&#13;&#10;Timeout: 15 s." type="com.codeborne.selenide.ex.ElementShould">Element should visible {By.xpath: //div[contains(@class, 'notification_status_error')]}
+  <testcase name="shouldUnsuccessfulWith13DigitsInNumber" classname="ru.netology.dailyTrip.tests.frontend.PaymentUiTests" time="16.794">
+    <failure message="Element should visible {By.xpath: //div[contains(@class, 'notification_status_error')]}&#13;&#10;Element: '&lt;div class=&quot;notification notification_status_error notification_has-closer notification_stick-to_right notification_theme_alfa-on-white&quot; displayed:false&gt;&lt;/div&gt;'&#13;&#10;Actual value: hidden&#13;&#10;Screenshot: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669377072253.3.png&#13;&#10;Page source: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669377072253.3.html&#13;&#10;Timeout: 15 s." type="com.codeborne.selenide.ex.ElementShould">Element should visible {By.xpath: //div[contains(@class, 'notification_status_error')]}
 Element: '&lt;div class=&quot;notification notification_status_error notification_has-closer notification_stick-to_right notification_theme_alfa-on-white&quot; displayed:false&gt;&lt;/div&gt;'
 Actual value: hidden
-Screenshot: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669375639723.3.png
-Page source: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669375639723.3.html
+Screenshot: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669377072253.3.png
+Page source: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669377072253.3.html
 Timeout: 15 s.
 	at app//com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:135)
 	at app//com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:98)
@@ -478,8 +478,8 @@ Timeout: 15 s.
 	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 </failure>
   </testcase>
-  <testcase name="shouldUnsuccessfulWith18DigitsInNumber" classname="ru.netology.dailyTrip.tests.frontend.PaymentUiTests" time="1.917">
-    <failure message="java.lang.AssertionError: expected:&lt;4444 4465 0649 7716 81&gt; but was:&lt;4444 4465 0649 7716&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;4444 4465 0649 7716 81&gt; but was:&lt;4444 4465 0649 7716&gt;
+  <testcase name="shouldUnsuccessfulWith18DigitsInNumber" classname="ru.netology.dailyTrip.tests.frontend.PaymentUiTests" time="1.369">
+    <failure message="java.lang.AssertionError: expected:&lt;4444 4400 8646 8154 72&gt; but was:&lt;4444 4400 8646 8154&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;4444 4400 8646 8154 72&gt; but was:&lt;4444 4400 8646 8154&gt;
 	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:115)
 	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:125)
 	at ru.netology.dailyTrip.pages.TripFormPage.matchesByInsertValue(TripFormPage.java:59)
@@ -532,8 +532,8 @@ Timeout: 15 s.
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 </failure>
   </testcase>
-  <testcase name="shouldUnsuccessfulWith19DigitsInNumber" classname="ru.netology.dailyTrip.tests.frontend.PaymentUiTests" time="1.789">
-    <failure message="java.lang.AssertionError: expected:&lt;4444 4481 4347 9525 391&gt; but was:&lt;4444 4481 4347 9525&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;4444 4481 4347 9525 391&gt; but was:&lt;4444 4481 4347 9525&gt;
+  <testcase name="shouldUnsuccessfulWith19DigitsInNumber" classname="ru.netology.dailyTrip.tests.frontend.PaymentUiTests" time="1.317">
+    <failure message="java.lang.AssertionError: expected:&lt;4444 4432 1496 0053 742&gt; but was:&lt;4444 4432 1496 0053&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;4444 4432 1496 0053 742&gt; but was:&lt;4444 4432 1496 0053&gt;
 	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:115)
 	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:125)
 	at ru.netology.dailyTrip.pages.TripFormPage.matchesByInsertValue(TripFormPage.java:59)
@@ -586,12 +586,12 @@ Timeout: 15 s.
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 </failure>
   </testcase>
-  <testcase name="shouldVisibleNotificationWith00InMonth" classname="ru.netology.dailyTrip.tests.frontend.PaymentUiTests" time="6.527">
-    <failure message="Element should css class &quot;input_invalid&quot; {By.xpath: //form/By.xpath: .//span[text()='Месяц']//ancestor::div/span/span[1]/span}&#13;&#10;Element: '&lt;span class=&quot;input input_type_text input_view_default input_size_m input_width_available input_has-label input_has-value input_theme_alfa-on-white&quot;&gt;Месяц&lt;/span&gt;'&#13;&#10;Actual value: class=&quot;input input_type_text input_view_default input_size_m input_width_available input_has-label input_has-value input_theme_alfa-on-white&quot;&#13;&#10;Screenshot: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669375650995.4.png&#13;&#10;Page source: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669375650995.4.html&#13;&#10;Timeout: 4 s." type="com.codeborne.selenide.ex.ElementShould">Element should css class &quot;input_invalid&quot; {By.xpath: //form/By.xpath: .//span[text()='Месяц']//ancestor::div/span/span[1]/span}
+  <testcase name="shouldVisibleNotificationWith00InMonth" classname="ru.netology.dailyTrip.tests.frontend.PaymentUiTests" time="5.784">
+    <failure message="Element should css class &quot;input_invalid&quot; {By.xpath: //form/By.xpath: .//span[text()='Месяц']//ancestor::div/span/span[1]/span}&#13;&#10;Element: '&lt;span class=&quot;input input_type_text input_view_default input_size_m input_width_available input_has-label input_has-value input_theme_alfa-on-white&quot;&gt;Месяц&lt;/span&gt;'&#13;&#10;Actual value: class=&quot;input input_type_text input_view_default input_size_m input_width_available input_has-label input_has-value input_theme_alfa-on-white&quot;&#13;&#10;Screenshot: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669377081419.4.png&#13;&#10;Page source: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669377081419.4.html&#13;&#10;Timeout: 4 s." type="com.codeborne.selenide.ex.ElementShould">Element should css class &quot;input_invalid&quot; {By.xpath: //form/By.xpath: .//span[text()='Месяц']//ancestor::div/span/span[1]/span}
 Element: '&lt;span class=&quot;input input_type_text input_view_default input_size_m input_width_available input_has-label input_has-value input_theme_alfa-on-white&quot;&gt;Месяц&lt;/span&gt;'
 Actual value: class=&quot;input input_type_text input_view_default input_size_m input_width_available input_has-label input_has-value input_theme_alfa-on-white&quot;
-Screenshot: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669375650995.4.png
-Page source: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669375650995.4.html
+Screenshot: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669377081419.4.png
+Page source: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669377081419.4.html
 Timeout: 4 s.
 	at app//com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:135)
 	at app//com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:98)
@@ -651,10 +651,10 @@ Timeout: 4 s.
 	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 </failure>
   </testcase>
-  <testcase name="shouldVisibleNotificationWith11DigitsInNumber" classname="ru.netology.dailyTrip.tests.frontend.PaymentUiTests" time="2.197"/>
-  <testcase name="shouldVisibleNotificationWith13InMonth" classname="ru.netology.dailyTrip.tests.frontend.PaymentUiTests" time="2.119"/>
-  <testcase name="shouldVisibleNotificationWith20DigitsInNumber" classname="ru.netology.dailyTrip.tests.frontend.PaymentUiTests" time="1.809">
-    <failure message="java.lang.AssertionError: expected:&lt;4444 4452 5605 8595 7737&gt; but was:&lt;4444 4452 5605 8595&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;4444 4452 5605 8595 7737&gt; but was:&lt;4444 4452 5605 8595&gt;
+  <testcase name="shouldVisibleNotificationWith11DigitsInNumber" classname="ru.netology.dailyTrip.tests.frontend.PaymentUiTests" time="1.618"/>
+  <testcase name="shouldVisibleNotificationWith13InMonth" classname="ru.netology.dailyTrip.tests.frontend.PaymentUiTests" time="1.605"/>
+  <testcase name="shouldVisibleNotificationWith20DigitsInNumber" classname="ru.netology.dailyTrip.tests.frontend.PaymentUiTests" time="1.33">
+    <failure message="java.lang.AssertionError: expected:&lt;4444 4493 0977 7960 8325&gt; but was:&lt;4444 4493 0977 7960&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;4444 4493 0977 7960 8325&gt; but was:&lt;4444 4493 0977 7960&gt;
 	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:115)
 	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:125)
 	at ru.netology.dailyTrip.pages.TripFormPage.matchesByInsertValue(TripFormPage.java:59)
@@ -707,9 +707,9 @@ Timeout: 4 s.
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 </failure>
   </testcase>
-  <testcase name="shouldVisibleNotificationWith2DigitsInCVC" classname="ru.netology.dailyTrip.tests.frontend.PaymentUiTests" time="2.147"/>
-  <testcase name="shouldVisibleNotificationWithCyrillicInHolder" classname="ru.netology.dailyTrip.tests.frontend.PaymentUiTests" time="2.003">
-    <failure message="java.lang.AssertionError: expected:&lt;&gt; but was:&lt;ВЛАДИМИР ГУЛЯЕВ&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;&gt; but was:&lt;ВЛАДИМИР ГУЛЯЕВ&gt;
+  <testcase name="shouldVisibleNotificationWith2DigitsInCVC" classname="ru.netology.dailyTrip.tests.frontend.PaymentUiTests" time="1.624"/>
+  <testcase name="shouldVisibleNotificationWithCyrillicInHolder" classname="ru.netology.dailyTrip.tests.frontend.PaymentUiTests" time="1.493">
+    <failure message="java.lang.AssertionError: expected:&lt;&gt; but was:&lt;ГРИГОРИЙ ВЛАДИМИРОВА&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;&gt; but was:&lt;ГРИГОРИЙ ВЛАДИМИРОВА&gt;
 	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:115)
 	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:125)
 	at ru.netology.dailyTrip.pages.TripFormPage.matchesByInsertValue(TripFormPage.java:62)
@@ -762,12 +762,12 @@ Timeout: 4 s.
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 </failure>
   </testcase>
-  <testcase name="shouldVisibleNotificationWithEmptyCVC" classname="ru.netology.dailyTrip.tests.frontend.PaymentUiTests" time="6.358">
-    <failure message="Element should text &quot;Поле обязательно для заполнения&quot; {By.xpath: //form/By.xpath: .//span[text()='CVC/CVV']//ancestor::div/span/span[2]/span/By.xpath: .//span[@class='input__sub']}&#13;&#10;Element: '&lt;span class=&quot;input__sub&quot;&gt;Неверный формат&lt;/span&gt;'&#13;&#10;Actual value: text=&quot;Неверный формат&quot;&#13;&#10;Screenshot: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669375669403.5.png&#13;&#10;Page source: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669375669403.5.html&#13;&#10;Timeout: 4 s." type="com.codeborne.selenide.ex.ElementShould">Element should text &quot;Поле обязательно для заполнения&quot; {By.xpath: //form/By.xpath: .//span[text()='CVC/CVV']//ancestor::div/span/span[2]/span/By.xpath: .//span[@class='input__sub']}
+  <testcase name="shouldVisibleNotificationWithEmptyCVC" classname="ru.netology.dailyTrip.tests.frontend.PaymentUiTests" time="5.819">
+    <failure message="Element should text &quot;Поле обязательно для заполнения&quot; {By.xpath: //form/By.xpath: .//span[text()='CVC/CVV']//ancestor::div/span/span[2]/span/By.xpath: .//span[@class='input__sub']}&#13;&#10;Element: '&lt;span class=&quot;input__sub&quot;&gt;Неверный формат&lt;/span&gt;'&#13;&#10;Actual value: text=&quot;Неверный формат&quot;&#13;&#10;Screenshot: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669377096227.5.png&#13;&#10;Page source: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669377096227.5.html&#13;&#10;Timeout: 4 s." type="com.codeborne.selenide.ex.ElementShould">Element should text &quot;Поле обязательно для заполнения&quot; {By.xpath: //form/By.xpath: .//span[text()='CVC/CVV']//ancestor::div/span/span[2]/span/By.xpath: .//span[@class='input__sub']}
 Element: '&lt;span class=&quot;input__sub&quot;&gt;Неверный формат&lt;/span&gt;'
 Actual value: text=&quot;Неверный формат&quot;
-Screenshot: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669375669403.5.png
-Page source: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669375669403.5.html
+Screenshot: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669377096227.5.png
+Page source: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669377096227.5.html
 Timeout: 4 s.
 	at app//com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:135)
 	at app//com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:98)
@@ -827,13 +827,13 @@ Timeout: 4 s.
 	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 </failure>
   </testcase>
-  <testcase name="shouldVisibleNotificationWithEmptyHolder" classname="ru.netology.dailyTrip.tests.frontend.PaymentUiTests" time="2.146"/>
-  <testcase name="shouldVisibleNotificationWithEmptyMonth" classname="ru.netology.dailyTrip.tests.frontend.PaymentUiTests" time="6.676">
-    <failure message="Element should text &quot;Поле обязательно для заполнения&quot; {By.xpath: //form/By.xpath: .//span[text()='Месяц']//ancestor::div/span/span[1]/span/By.xpath: .//span[@class='input__sub']}&#13;&#10;Element: '&lt;span class=&quot;input__sub&quot;&gt;Неверный формат&lt;/span&gt;'&#13;&#10;Actual value: text=&quot;Неверный формат&quot;&#13;&#10;Screenshot: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669375678757.6.png&#13;&#10;Page source: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669375678757.6.html&#13;&#10;Timeout: 4 s." type="com.codeborne.selenide.ex.ElementShould">Element should text &quot;Поле обязательно для заполнения&quot; {By.xpath: //form/By.xpath: .//span[text()='Месяц']//ancestor::div/span/span[1]/span/By.xpath: .//span[@class='input__sub']}
+  <testcase name="shouldVisibleNotificationWithEmptyHolder" classname="ru.netology.dailyTrip.tests.frontend.PaymentUiTests" time="1.568"/>
+  <testcase name="shouldVisibleNotificationWithEmptyMonth" classname="ru.netology.dailyTrip.tests.frontend.PaymentUiTests" time="5.845">
+    <failure message="Element should text &quot;Поле обязательно для заполнения&quot; {By.xpath: //form/By.xpath: .//span[text()='Месяц']//ancestor::div/span/span[1]/span/By.xpath: .//span[@class='input__sub']}&#13;&#10;Element: '&lt;span class=&quot;input__sub&quot;&gt;Неверный формат&lt;/span&gt;'&#13;&#10;Actual value: text=&quot;Неверный формат&quot;&#13;&#10;Screenshot: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669377104024.6.png&#13;&#10;Page source: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669377104024.6.html&#13;&#10;Timeout: 4 s." type="com.codeborne.selenide.ex.ElementShould">Element should text &quot;Поле обязательно для заполнения&quot; {By.xpath: //form/By.xpath: .//span[text()='Месяц']//ancestor::div/span/span[1]/span/By.xpath: .//span[@class='input__sub']}
 Element: '&lt;span class=&quot;input__sub&quot;&gt;Неверный формат&lt;/span&gt;'
 Actual value: text=&quot;Неверный формат&quot;
-Screenshot: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669375678757.6.png
-Page source: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669375678757.6.html
+Screenshot: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669377104024.6.png
+Page source: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669377104024.6.html
 Timeout: 4 s.
 	at app//com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:135)
 	at app//com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:98)
@@ -893,12 +893,12 @@ Timeout: 4 s.
 	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 </failure>
   </testcase>
-  <testcase name="shouldVisibleNotificationWithEmptyNumber" classname="ru.netology.dailyTrip.tests.frontend.PaymentUiTests" time="6.67">
-    <failure message="Element should text &quot;Поле обязательно для заполнения&quot; {By.xpath: //form/By.xpath: .//span[text()='Номер карты']//ancestor::div/span/By.xpath: .//span[@class='input__sub']}&#13;&#10;Element: '&lt;span class=&quot;input__sub&quot;&gt;Неверный формат&lt;/span&gt;'&#13;&#10;Actual value: text=&quot;Неверный формат&quot;&#13;&#10;Screenshot: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669375685837.7.png&#13;&#10;Page source: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669375685837.7.html&#13;&#10;Timeout: 4 s." type="com.codeborne.selenide.ex.ElementShould">Element should text &quot;Поле обязательно для заполнения&quot; {By.xpath: //form/By.xpath: .//span[text()='Номер карты']//ancestor::div/span/By.xpath: .//span[@class='input__sub']}
+  <testcase name="shouldVisibleNotificationWithEmptyNumber" classname="ru.netology.dailyTrip.tests.frontend.PaymentUiTests" time="5.808">
+    <failure message="Element should text &quot;Поле обязательно для заполнения&quot; {By.xpath: //form/By.xpath: .//span[text()='Номер карты']//ancestor::div/span/By.xpath: .//span[@class='input__sub']}&#13;&#10;Element: '&lt;span class=&quot;input__sub&quot;&gt;Неверный формат&lt;/span&gt;'&#13;&#10;Actual value: text=&quot;Неверный формат&quot;&#13;&#10;Screenshot: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669377110072.7.png&#13;&#10;Page source: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669377110072.7.html&#13;&#10;Timeout: 4 s." type="com.codeborne.selenide.ex.ElementShould">Element should text &quot;Поле обязательно для заполнения&quot; {By.xpath: //form/By.xpath: .//span[text()='Номер карты']//ancestor::div/span/By.xpath: .//span[@class='input__sub']}
 Element: '&lt;span class=&quot;input__sub&quot;&gt;Неверный формат&lt;/span&gt;'
 Actual value: text=&quot;Неверный формат&quot;
-Screenshot: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669375685837.7.png
-Page source: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669375685837.7.html
+Screenshot: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669377110072.7.png
+Page source: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669377110072.7.html
 Timeout: 4 s.
 	at app//com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:135)
 	at app//com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:98)
@@ -958,12 +958,12 @@ Timeout: 4 s.
 	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 </failure>
   </testcase>
-  <testcase name="shouldVisibleNotificationWithEmptyYear" classname="ru.netology.dailyTrip.tests.frontend.PaymentUiTests" time="6.71">
-    <failure message="Element should text &quot;Поле обязательно для заполнения&quot; {By.xpath: //form/By.xpath: .//span[text()='Год']//ancestor::div/span/span[2]/span/By.xpath: .//span[@class='input__sub']}&#13;&#10;Element: '&lt;span class=&quot;input__sub&quot;&gt;Неверный формат&lt;/span&gt;'&#13;&#10;Actual value: text=&quot;Неверный формат&quot;&#13;&#10;Screenshot: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669375692877.8.png&#13;&#10;Page source: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669375692877.8.html&#13;&#10;Timeout: 4 s." type="com.codeborne.selenide.ex.ElementShould">Element should text &quot;Поле обязательно для заполнения&quot; {By.xpath: //form/By.xpath: .//span[text()='Год']//ancestor::div/span/span[2]/span/By.xpath: .//span[@class='input__sub']}
+  <testcase name="shouldVisibleNotificationWithEmptyYear" classname="ru.netology.dailyTrip.tests.frontend.PaymentUiTests" time="5.791">
+    <failure message="Element should text &quot;Поле обязательно для заполнения&quot; {By.xpath: //form/By.xpath: .//span[text()='Год']//ancestor::div/span/span[2]/span/By.xpath: .//span[@class='input__sub']}&#13;&#10;Element: '&lt;span class=&quot;input__sub&quot;&gt;Неверный формат&lt;/span&gt;'&#13;&#10;Actual value: text=&quot;Неверный формат&quot;&#13;&#10;Screenshot: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669377116081.8.png&#13;&#10;Page source: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669377116081.8.html&#13;&#10;Timeout: 4 s." type="com.codeborne.selenide.ex.ElementShould">Element should text &quot;Поле обязательно для заполнения&quot; {By.xpath: //form/By.xpath: .//span[text()='Год']//ancestor::div/span/span[2]/span/By.xpath: .//span[@class='input__sub']}
 Element: '&lt;span class=&quot;input__sub&quot;&gt;Неверный формат&lt;/span&gt;'
 Actual value: text=&quot;Неверный формат&quot;
-Screenshot: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669375692877.8.png
-Page source: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669375692877.8.html
+Screenshot: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669377116081.8.png
+Page source: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669377116081.8.html
 Timeout: 4 s.
 	at app//com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:135)
 	at app//com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:98)
@@ -1023,8 +1023,8 @@ Timeout: 4 s.
 	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 </failure>
   </testcase>
-  <testcase name="shouldVisibleNotificationWithInvalidSymbolInHolder" classname="ru.netology.dailyTrip.tests.frontend.PaymentUiTests" time="1.963">
-    <failure message="java.lang.AssertionError: expected:&lt;&gt; but was:&lt;4844 8756 7409 8691&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;&gt; but was:&lt;4844 8756 7409 8691&gt;
+  <testcase name="shouldVisibleNotificationWithInvalidSymbolInHolder" classname="ru.netology.dailyTrip.tests.frontend.PaymentUiTests" time="1.47">
+    <failure message="java.lang.AssertionError: expected:&lt;&gt; but was:&lt;8636 1212 0553 3847&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;&gt; but was:&lt;8636 1212 0553 3847&gt;
 	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:115)
 	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:125)
 	at ru.netology.dailyTrip.pages.TripFormPage.matchesByInsertValue(TripFormPage.java:62)
@@ -1077,12 +1077,12 @@ Timeout: 4 s.
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 </failure>
   </testcase>
-  <testcase name="shouldVisibleNotificationWithInvalidSymbolsInCVC" classname="ru.netology.dailyTrip.tests.frontend.PaymentUiTests" time="6.53">
-    <failure message="Element should text &quot;Поле обязательно для заполнения&quot; {By.xpath: //form/By.xpath: .//span[text()='CVC/CVV']//ancestor::div/span/span[2]/span/By.xpath: .//span[@class='input__sub']}&#13;&#10;Element: '&lt;span class=&quot;input__sub&quot;&gt;Неверный формат&lt;/span&gt;'&#13;&#10;Actual value: text=&quot;Неверный формат&quot;&#13;&#10;Screenshot: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669375702007.9.png&#13;&#10;Page source: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669375702007.9.html&#13;&#10;Timeout: 4 s." type="com.codeborne.selenide.ex.ElementShould">Element should text &quot;Поле обязательно для заполнения&quot; {By.xpath: //form/By.xpath: .//span[text()='CVC/CVV']//ancestor::div/span/span[2]/span/By.xpath: .//span[@class='input__sub']}
+  <testcase name="shouldVisibleNotificationWithInvalidSymbolsInCVC" classname="ru.netology.dailyTrip.tests.frontend.PaymentUiTests" time="5.824">
+    <failure message="Element should text &quot;Поле обязательно для заполнения&quot; {By.xpath: //form/By.xpath: .//span[text()='CVC/CVV']//ancestor::div/span/span[2]/span/By.xpath: .//span[@class='input__sub']}&#13;&#10;Element: '&lt;span class=&quot;input__sub&quot;&gt;Неверный формат&lt;/span&gt;'&#13;&#10;Actual value: text=&quot;Неверный формат&quot;&#13;&#10;Screenshot: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669377123757.9.png&#13;&#10;Page source: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669377123757.9.html&#13;&#10;Timeout: 4 s." type="com.codeborne.selenide.ex.ElementShould">Element should text &quot;Поле обязательно для заполнения&quot; {By.xpath: //form/By.xpath: .//span[text()='CVC/CVV']//ancestor::div/span/span[2]/span/By.xpath: .//span[@class='input__sub']}
 Element: '&lt;span class=&quot;input__sub&quot;&gt;Неверный формат&lt;/span&gt;'
 Actual value: text=&quot;Неверный формат&quot;
-Screenshot: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669375702007.9.png
-Page source: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669375702007.9.html
+Screenshot: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669377123757.9.png
+Page source: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669377123757.9.html
 Timeout: 4 s.
 	at app//com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:135)
 	at app//com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:98)
@@ -1142,12 +1142,12 @@ Timeout: 4 s.
 	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 </failure>
   </testcase>
-  <testcase name="shouldVisibleNotificationWithInvalidSymbolsInMonth" classname="ru.netology.dailyTrip.tests.frontend.PaymentUiTests" time="6.778">
-    <failure message="Element should text &quot;Поле обязательно для заполнения&quot; {By.xpath: //form/By.xpath: .//span[text()='Месяц']//ancestor::div/span/span[1]/span/By.xpath: .//span[@class='input__sub']}&#13;&#10;Element: '&lt;span class=&quot;input__sub&quot;&gt;Неверный формат&lt;/span&gt;'&#13;&#10;Actual value: text=&quot;Неверный формат&quot;&#13;&#10;Screenshot: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669375709064.10.png&#13;&#10;Page source: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669375709064.10.html&#13;&#10;Timeout: 4 s." type="com.codeborne.selenide.ex.ElementShould">Element should text &quot;Поле обязательно для заполнения&quot; {By.xpath: //form/By.xpath: .//span[text()='Месяц']//ancestor::div/span/span[1]/span/By.xpath: .//span[@class='input__sub']}
+  <testcase name="shouldVisibleNotificationWithInvalidSymbolsInMonth" classname="ru.netology.dailyTrip.tests.frontend.PaymentUiTests" time="5.824">
+    <failure message="Element should text &quot;Поле обязательно для заполнения&quot; {By.xpath: //form/By.xpath: .//span[text()='Месяц']//ancestor::div/span/span[1]/span/By.xpath: .//span[@class='input__sub']}&#13;&#10;Element: '&lt;span class=&quot;input__sub&quot;&gt;Неверный формат&lt;/span&gt;'&#13;&#10;Actual value: text=&quot;Неверный формат&quot;&#13;&#10;Screenshot: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669377129776.10.png&#13;&#10;Page source: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669377129776.10.html&#13;&#10;Timeout: 4 s." type="com.codeborne.selenide.ex.ElementShould">Element should text &quot;Поле обязательно для заполнения&quot; {By.xpath: //form/By.xpath: .//span[text()='Месяц']//ancestor::div/span/span[1]/span/By.xpath: .//span[@class='input__sub']}
 Element: '&lt;span class=&quot;input__sub&quot;&gt;Неверный формат&lt;/span&gt;'
 Actual value: text=&quot;Неверный формат&quot;
-Screenshot: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669375709064.10.png
-Page source: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669375709064.10.html
+Screenshot: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669377129776.10.png
+Page source: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669377129776.10.html
 Timeout: 4 s.
 	at app//com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:135)
 	at app//com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:98)
@@ -1207,12 +1207,12 @@ Timeout: 4 s.
 	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 </failure>
   </testcase>
-  <testcase name="shouldVisibleNotificationWithInvalidSymbolsInNumber" classname="ru.netology.dailyTrip.tests.frontend.PaymentUiTests" time="6.619">
-    <failure message="Element should text &quot;Поле обязательно для заполнения&quot; {By.xpath: //form/By.xpath: .//span[text()='Номер карты']//ancestor::div/span/By.xpath: .//span[@class='input__sub']}&#13;&#10;Element: '&lt;span class=&quot;input__sub&quot;&gt;Неверный формат&lt;/span&gt;'&#13;&#10;Actual value: text=&quot;Неверный формат&quot;&#13;&#10;Screenshot: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669375715988.11.png&#13;&#10;Page source: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669375715988.11.html&#13;&#10;Timeout: 4 s." type="com.codeborne.selenide.ex.ElementShould">Element should text &quot;Поле обязательно для заполнения&quot; {By.xpath: //form/By.xpath: .//span[text()='Номер карты']//ancestor::div/span/By.xpath: .//span[@class='input__sub']}
+  <testcase name="shouldVisibleNotificationWithInvalidSymbolsInNumber" classname="ru.netology.dailyTrip.tests.frontend.PaymentUiTests" time="5.784">
+    <failure message="Element should text &quot;Поле обязательно для заполнения&quot; {By.xpath: //form/By.xpath: .//span[text()='Номер карты']//ancestor::div/span/By.xpath: .//span[@class='input__sub']}&#13;&#10;Element: '&lt;span class=&quot;input__sub&quot;&gt;Неверный формат&lt;/span&gt;'&#13;&#10;Actual value: text=&quot;Неверный формат&quot;&#13;&#10;Screenshot: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669377135762.11.png&#13;&#10;Page source: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669377135762.11.html&#13;&#10;Timeout: 4 s." type="com.codeborne.selenide.ex.ElementShould">Element should text &quot;Поле обязательно для заполнения&quot; {By.xpath: //form/By.xpath: .//span[text()='Номер карты']//ancestor::div/span/By.xpath: .//span[@class='input__sub']}
 Element: '&lt;span class=&quot;input__sub&quot;&gt;Неверный формат&lt;/span&gt;'
 Actual value: text=&quot;Неверный формат&quot;
-Screenshot: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669375715988.11.png
-Page source: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669375715988.11.html
+Screenshot: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669377135762.11.png
+Page source: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669377135762.11.html
 Timeout: 4 s.
 	at app//com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:135)
 	at app//com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:98)
@@ -1272,12 +1272,12 @@ Timeout: 4 s.
 	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 </failure>
   </testcase>
-  <testcase name="shouldVisibleNotificationWithInvalidSymbolsInYear" classname="ru.netology.dailyTrip.tests.frontend.PaymentUiTests" time="6.846">
-    <failure message="Element should text &quot;Поле обязательно для заполнения&quot; {By.xpath: //form/By.xpath: .//span[text()='Год']//ancestor::div/span/span[2]/span/By.xpath: .//span[@class='input__sub']}&#13;&#10;Element: '&lt;span class=&quot;input__sub&quot;&gt;Неверный формат&lt;/span&gt;'&#13;&#10;Actual value: text=&quot;Неверный формат&quot;&#13;&#10;Screenshot: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669375723144.12.png&#13;&#10;Page source: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669375723144.12.html&#13;&#10;Timeout: 4 s." type="com.codeborne.selenide.ex.ElementShould">Element should text &quot;Поле обязательно для заполнения&quot; {By.xpath: //form/By.xpath: .//span[text()='Год']//ancestor::div/span/span[2]/span/By.xpath: .//span[@class='input__sub']}
+  <testcase name="shouldVisibleNotificationWithInvalidSymbolsInYear" classname="ru.netology.dailyTrip.tests.frontend.PaymentUiTests" time="5.807">
+    <failure message="Element should text &quot;Поле обязательно для заполнения&quot; {By.xpath: //form/By.xpath: .//span[text()='Год']//ancestor::div/span/span[2]/span/By.xpath: .//span[@class='input__sub']}&#13;&#10;Element: '&lt;span class=&quot;input__sub&quot;&gt;Неверный формат&lt;/span&gt;'&#13;&#10;Actual value: text=&quot;Неверный формат&quot;&#13;&#10;Screenshot: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669377141782.12.png&#13;&#10;Page source: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669377141782.12.html&#13;&#10;Timeout: 4 s." type="com.codeborne.selenide.ex.ElementShould">Element should text &quot;Поле обязательно для заполнения&quot; {By.xpath: //form/By.xpath: .//span[text()='Год']//ancestor::div/span/span[2]/span/By.xpath: .//span[@class='input__sub']}
 Element: '&lt;span class=&quot;input__sub&quot;&gt;Неверный формат&lt;/span&gt;'
 Actual value: text=&quot;Неверный формат&quot;
-Screenshot: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669375723144.12.png
-Page source: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669375723144.12.html
+Screenshot: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669377141782.12.png
+Page source: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669377141782.12.html
 Timeout: 4 s.
 	at app//com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:135)
 	at app//com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:98)
@@ -1337,12 +1337,12 @@ Timeout: 4 s.
 	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 </failure>
   </testcase>
-  <testcase name="shouldVisibleNotificationWithOneDigitInYear" classname="ru.netology.dailyTrip.tests.frontend.PaymentUiTests" time="6.776">
-    <failure message="Element should text &quot;Истёк срок действия карты&quot; {By.xpath: //form/By.xpath: .//span[text()='Год']//ancestor::div/span/span[2]/span/By.xpath: .//span[@class='input__sub']}&#13;&#10;Element: '&lt;span class=&quot;input__sub&quot;&gt;Неверный формат&lt;/span&gt;'&#13;&#10;Actual value: text=&quot;Неверный формат&quot;&#13;&#10;Screenshot: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669375730328.13.png&#13;&#10;Page source: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669375730328.13.html&#13;&#10;Timeout: 4 s." type="com.codeborne.selenide.ex.ElementShould">Element should text &quot;Истёк срок действия карты&quot; {By.xpath: //form/By.xpath: .//span[text()='Год']//ancestor::div/span/span[2]/span/By.xpath: .//span[@class='input__sub']}
+  <testcase name="shouldVisibleNotificationWithOneDigitInYear" classname="ru.netology.dailyTrip.tests.frontend.PaymentUiTests" time="5.818">
+    <failure message="Element should text &quot;Истёк срок действия карты&quot; {By.xpath: //form/By.xpath: .//span[text()='Год']//ancestor::div/span/span[2]/span/By.xpath: .//span[@class='input__sub']}&#13;&#10;Element: '&lt;span class=&quot;input__sub&quot;&gt;Неверный формат&lt;/span&gt;'&#13;&#10;Actual value: text=&quot;Неверный формат&quot;&#13;&#10;Screenshot: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669377147802.13.png&#13;&#10;Page source: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669377147802.13.html&#13;&#10;Timeout: 4 s." type="com.codeborne.selenide.ex.ElementShould">Element should text &quot;Истёк срок действия карты&quot; {By.xpath: //form/By.xpath: .//span[text()='Год']//ancestor::div/span/span[2]/span/By.xpath: .//span[@class='input__sub']}
 Element: '&lt;span class=&quot;input__sub&quot;&gt;Неверный формат&lt;/span&gt;'
 Actual value: text=&quot;Неверный формат&quot;
-Screenshot: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669375730328.13.png
-Page source: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669375730328.13.html
+Screenshot: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669377147802.13.png
+Page source: file:/C:/Users/Ksenia/IdeaProjects/Diploma/build/reports/tests/1669377147802.13.html
 Timeout: 4 s.
 	at app//com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:135)
 	at app//com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:98)
@@ -1402,8 +1402,8 @@ Timeout: 4 s.
 	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 </failure>
   </testcase>
-  <testcase name="shouldVisibleNotificationWithPrevMonth" classname="ru.netology.dailyTrip.tests.frontend.PaymentUiTests" time="2.349"/>
-  <testcase name="shouldVisibleNotificationWithPrevYear" classname="ru.netology.dailyTrip.tests.frontend.PaymentUiTests" time="2.256"/>
+  <testcase name="shouldVisibleNotificationWithPrevMonth" classname="ru.netology.dailyTrip.tests.frontend.PaymentUiTests" time="1.572"/>
+  <testcase name="shouldVisibleNotificationWithPrevYear" classname="ru.netology.dailyTrip.tests.frontend.PaymentUiTests" time="1.554"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

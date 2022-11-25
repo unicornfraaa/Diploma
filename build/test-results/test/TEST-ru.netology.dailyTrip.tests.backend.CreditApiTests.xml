@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ru.netology.dailyTrip.tests.backend.CreditApiTests" tests="8" skipped="0" failures="6" errors="0" timestamp="2022-11-25T11:24:03" hostname="LAPTOP-TP511OQ9" time="3.254">
+<testsuite name="ru.netology.dailyTrip.tests.backend.CreditApiTests" tests="8" skipped="0" failures="6" errors="0" timestamp="2022-11-25T11:48:19" hostname="LAPTOP-TP511OQ9" time="2.81">
   <properties/>
-  <testcase name="shouldHappyPath" classname="ru.netology.dailyTrip.tests.backend.CreditApiTests" time="2.413">
+  <testcase name="shouldHappyPath" classname="ru.netology.dailyTrip.tests.backend.CreditApiTests" time="1.855">
     <failure message="java.lang.AssertionError: expected:&lt;1&gt; but was:&lt;0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;1&gt; but was:&lt;0&gt;
 	at org.testng.AssertJUnit.fail(AssertJUnit.java:65)
 	at org.testng.AssertJUnit.failNotEquals(AssertJUnit.java:467)
@@ -57,7 +57,7 @@
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 </failure>
   </testcase>
-  <testcase name="shouldSadPath" classname="ru.netology.dailyTrip.tests.backend.CreditApiTests" time="0.096">
+  <testcase name="shouldSadPath" classname="ru.netology.dailyTrip.tests.backend.CreditApiTests" time="0.107">
     <failure message="java.lang.AssertionError: expected:&lt;1&gt; but was:&lt;0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;1&gt; but was:&lt;0&gt;
 	at org.testng.AssertJUnit.fail(AssertJUnit.java:65)
 	at org.testng.AssertJUnit.failNotEquals(AssertJUnit.java:467)
@@ -113,8 +113,8 @@
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 </failure>
   </testcase>
-  <testcase name="shouldStatus400WithEmptyBody" classname="ru.netology.dailyTrip.tests.backend.CreditApiTests" time="0.092"/>
-  <testcase name="shouldStatus400WithEmptyCvc" classname="ru.netology.dailyTrip.tests.backend.CreditApiTests" time="0.077">
+  <testcase name="shouldStatus400WithEmptyBody" classname="ru.netology.dailyTrip.tests.backend.CreditApiTests" time="0.093"/>
+  <testcase name="shouldStatus400WithEmptyCvc" classname="ru.netology.dailyTrip.tests.backend.CreditApiTests" time="0.063">
     <failure message="java.lang.AssertionError: 1 expectation failed.&#10;Expected status code &lt;400&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError">java.lang.AssertionError: 1 expectation failed.
 Expected status code &lt;400&gt; but was &lt;200&gt;.
 
@@ -193,7 +193,7 @@ Expected status code &lt;400&gt; but was &lt;200&gt;.
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 </failure>
   </testcase>
-  <testcase name="shouldStatus400WithEmptyHolder" classname="ru.netology.dailyTrip.tests.backend.CreditApiTests" time="0.021">
+  <testcase name="shouldStatus400WithEmptyHolder" classname="ru.netology.dailyTrip.tests.backend.CreditApiTests" time="0.017">
     <failure message="java.lang.AssertionError: 1 expectation failed.&#10;Expected status code &lt;400&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError">java.lang.AssertionError: 1 expectation failed.
 Expected status code &lt;400&gt; but was &lt;200&gt;.
 
@@ -270,7 +270,7 @@ Expected status code &lt;400&gt; but was &lt;200&gt;.
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 </failure>
   </testcase>
-  <testcase name="shouldStatus400WithEmptyMonth" classname="ru.netology.dailyTrip.tests.backend.CreditApiTests" time="0.023">
+  <testcase name="shouldStatus400WithEmptyMonth" classname="ru.netology.dailyTrip.tests.backend.CreditApiTests" time="0.072">
     <failure message="java.lang.AssertionError: 1 expectation failed.&#10;Expected status code &lt;400&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError">java.lang.AssertionError: 1 expectation failed.
 Expected status code &lt;400&gt; but was &lt;200&gt;.
 
@@ -347,8 +347,8 @@ Expected status code &lt;400&gt; but was &lt;200&gt;.
 	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
 </failure>
   </testcase>
-  <testcase name="shouldStatus400WithEmptyNumber" classname="ru.netology.dailyTrip.tests.backend.CreditApiTests" time="0.089"/>
-  <testcase name="shouldStatus400WithEmptyYear" classname="ru.netology.dailyTrip.tests.backend.CreditApiTests" time="0.024">
+  <testcase name="shouldStatus400WithEmptyNumber" classname="ru.netology.dailyTrip.tests.backend.CreditApiTests" time="0.134"/>
+  <testcase name="shouldStatus400WithEmptyYear" classname="ru.netology.dailyTrip.tests.backend.CreditApiTests" time="0.021">
     <failure message="java.lang.AssertionError: 1 expectation failed.&#10;Expected status code &lt;400&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError">java.lang.AssertionError: 1 expectation failed.
 Expected status code &lt;400&gt; but was &lt;200&gt;.
 
@@ -441,8 +441,8 @@ Body:
     "number": "4444 4444 4444 4441",
     "month": "12",
     "year": "24",
-    "holder": "DR. ISREAL LEBSACK",
-    "cvc": "201"
+    "holder": "DORETHEA CUMMERATA",
+    "cvc": "195"
 }
 Request method:	POST
 Request URI:	http://localhost:9999/credit
@@ -460,8 +460,8 @@ Body:
     "number": "4444 4444 4444 4442",
     "month": "12",
     "year": "24",
-    "holder": "MISS HERMINE KIHN",
-    "cvc": "462"
+    "holder": "JACQUELYNN BAILEY",
+    "cvc": "133"
 }
 Request method:	POST
 Request URI:	http://localhost:9999/credit
@@ -491,7 +491,7 @@ Body:
     "number": "4444 4444 4444 4441",
     "month": "12",
     "year": "24",
-    "holder": "DR. LAURENE LARSON"
+    "holder": "WILLIA GRAHAM I"
 }
 Request method:	POST
 Request URI:	http://localhost:9999/credit
@@ -509,7 +509,7 @@ Body:
     "number": "4444 4444 4444 4441",
     "month": "12",
     "year": "24",
-    "cvc": "357"
+    "cvc": "618"
 }
 Request method:	POST
 Request URI:	http://localhost:9999/credit
@@ -526,8 +526,8 @@ Body:
 {
     "number": "4444 4444 4444 4441",
     "year": "24",
-    "holder": "MARISELA GLEASON PHD",
-    "cvc": "657"
+    "holder": "MICHA EMMERICH",
+    "cvc": "523"
 }
 Request method:	POST
 Request URI:	http://localhost:9999/credit
@@ -544,8 +544,8 @@ Body:
 {
     "month": "12",
     "year": "24",
-    "holder": "DARRICK WEST II",
-    "cvc": "221"
+    "holder": "ERLINE OLSON",
+    "cvc": "339"
 }
 Request method:	POST
 Request URI:	http://localhost:9999/credit
@@ -562,8 +562,8 @@ Body:
 {
     "number": "4444 4444 4444 4441",
     "month": "12",
-    "holder": "VALENTINE FEIL",
-    "cvc": "383"
+    "holder": "KITTIE DIBBERT",
+    "cvc": "599"
 }
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
